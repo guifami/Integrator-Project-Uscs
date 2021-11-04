@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="/>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="shortcut icon" href="assets/img/logo.png">
+
+        <title>Projeto Integrador | 3D</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="header">
+            <div class="header__container">
+                <img src="assets/img/logo.png" alt="" class="header__img">
+                <div id="titulo">
+                   <h2>Projeto Integrador</h2> 
+                </div>
+    
+                <div class="header__toggle">
+                    <i class='bx bx-menu' id="header-toggle"></i>
+                </div>
+            </div>
+        </header>
+
+        <!--========== NAV ==========-->
+        <div class="nav" id="navbar">
+            <nav class="nav__container">
+                <div>
+                    <a href="index.html" class="nav__link nav__logo">
+                        <img src="assets/img/logo.png" alt="logo" class="logoimg">
+                        <span class="nav__logo-name" style="padding-left: 13px;">3°D</span>
+                    </a>
+    
+                    <div class="nav__list">
+                        <div class="nav__items">
+                            <h3 class="nav__subtitle">Sobre</h3>
+    
+                            <a href="index.html" class="nav__link active">
+                                <i class='bx bx-home nav__icon' ></i>
+                                <span class="nav__name">Home</span>
+                            </a>
+                            
+                            <div class="nav__dropdown">
+                                <a href="#" class="nav__link">
+                                    <i class='bx bx-user nav__icon' ></i>
+                                    <span class="nav__name">Projetos</span>
+                                    <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                                </a>
+
+                                <div class="nav__dropdown-collapse">
+                                    <div class="nav__dropdown-content">
+                                        <a href="aquecimentoglobal.html" class="nav__dropdown-item">Aquecimento Global</a>
+                                        <a href="sustentabilidade.html" class="nav__dropdown-item">Sustentabilidade</a>
+                                        <a href="agronegocio.html" class="nav__dropdown-item">Agronegócio</a>
+                                        <a href="energia.html" class="nav__dropdown-item">Energia</a>
+                                        <a href="noticias.html" class="nav__dropdown-item">Notícias</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="nav__items">
+                            <h3 class="nav__subtitle">Menu</h3>
+    
+                            <div class="nav__dropdown">
+                                <a href="#" class="nav__link">
+                                    <i class='bx bx-bell nav__icon' ></i>
+                                    <span class="nav__name">Quem Somos</span>
+                                </a>
+                            </div>
+
+                            <a href="#" class="nav__link">
+                                <i class='bx bx-compass nav__icon' ></i>
+                                <span class="nav__name">Orientadores</span>
+                            </a>
+                            <a href="#" class="nav__link">
+                                <img src="assets/img/grupologo.png" alt="grupologo" class="logoimg">
+                                <span class="nav__name" style="padding-left: 10px;">Referências</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </nav>
+        </div>
+
+        <!--========== CONTENTS ==========-->
+
+        <center>
+            <div id="divbanner6">
+                <h2>Notícias</h2>
+                <h4>Encontre reunidas aqui notícias relacionadas aos temas abordados em todas as pesquisas.</h4>
+            </div>
+        </center>
+
+        <!--Cartões Responsivos-->
+
+
+        <style>
+            .content-column{
+                display: flex;
+                flex-wrap: wrap;
+                background-color: #fdfdfd;
+                width: 100%;
+                height: 100%;
+                text-align: left;
+            }
+
+            .content-column > *:nth-child(1){
+                flex: 1 1 30%;
+                min-width: 35ch;
+            }
+            
+
+            .content-column > *:nth-child(2){
+                flex: 1 1 40%;
+                min-width: 35ch;
+            }
+
+            .content-column img{
+                width: 400px;
+                height: 320px;
+                padding: 25px;
+                max-width: 400px;
+                min-width: 400px;
+            }
+            .content-column p{
+                padding-top: 50px;
+                padding: 30px;
+                color: #000;
+                font-size: 17px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+        </style>
+         <center>   
+            <div class="content-column">
+                <img src="assets/img/noticia (1).png">
+                <p><b>Biden quer que energia solar forneça 45% da energia dos Estados Unidos até 2050</b>
+                    <br>
+                    <br>
+                    08 de setembro de 2021
+                    <br>
+                    <br>
+                    O Departamento de Energia disse que a energia solar pode responder por quase metade do fornecimento de eletricidade dos Estados Unidos até a metade do século.
+                </p>
+            </div>
+            <div class="content-column">
+                <img src="assets/img/noticia (2).png">
+                <p><b>Merkel pede voto para Alemanha "estável" com a aproximação das eleições.</b>
+                    <br>
+                    <br>
+                    24 de setembro de 2021
+                    <br>
+                    <br>
+                    A chanceler Merkel disse que a proteção foi melhor alcançada por meio de avanços tecnológicos “em vez de proibições ou ordens”.
+                </p>
+            </div>
+            <div class="content-column">
+                <img src="assets/img/noticia (3).png">
+                <p><b>Empresa de energia dos Estados Unidos foi acusada de incêndio florestal mortal na Califórnia</b>
+                    <br>
+                    <br>
+                    24 de setembro de 2021
+                    <br>
+                    <br>
+                    A Pacific Gas and Eletric Company (PG&E), cuja os cabos provocaram um incêndio devastador na Califórnia que matou quatro pessoas, foi acusada de homicídio culposo.
+                </p>
+            </div>
+            <div class="content-column">
+                <img src="assets/img/noticia (4).png">
+                <p><b>Prêmio Nobel de Física homenageia trabalho climático</b>
+                    <br>
+                    <br>
+                    05 de outubro de 2021
+                    <br>
+                    <br>
+                    O cientista amricano-japonês Syukuro Manabe, Klaus Hasselmann da Alemanha e Giorgio Parisi da Itália ganharam o Prêmio Nobel de Física para modelos climáticos e compreensão de sistemas físicos.
+                </p>
+            </div>
+            <div class="content-column">
+                <img src="assets/img/noticia (5).png">
+                <p><b>A Europa, não os EUA, pode liderar o mundo em ações climáticas</b>
+                    <br>
+                    <br>
+                    23 de outubro de 2021
+                    <br>
+                    <br>
+                    Na Europa, ouve-se alertas sobre as mudanças climáticas. Se os sistemas industriais, de energia, transporte e alimentos não mudarem, poderemos enfrentar um aumento catastrófico de temperatura de mais de 3 °C neste século.
+                </p>
+            </div>
+        </center>
+        <!--Rodapé-->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Quem Somos ?</h4>
+            <ul>
+              <li>Somos alunos do Colégio Universitário USCS e buscamos aprender, construir e melhorar a forma de aprendizagem.</li>
+              <li>Apresentamos nosso Projeto Integrador para espalhar esses conhecimentos.</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Orientadores</h4>
+            <ul>
+              <li>Diretoria</li>
+              <li>Secretaria</li>
+              <li>Coordenadores</li>
+              <li>Professores</li>
+              <li>Equipe técnica</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Referências</h4>
+            <ul>
+              <li>Aulas Gravadas</li>
+              <li>Fontes Externas</li>
+              <li>Livro Digital</li>
+              <li>Preparatórios</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Siga-nos</h4>
+            <div class="social-links">
+              <a href="https://pt-br.facebook.com/USCSOnline/"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com/uscs_online"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/uscsoficial/"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+   </footer>
+    <!--========== MAIN JS ==========-->
+    
+    <script src="assets/js/main.js"></script>
+    </body>
+</html>
