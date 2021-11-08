@@ -394,7 +394,6 @@ img {
   height: 400px;
   background-size: cover;
   width: 100%;
-  background-attachment: fixed;
 }
 
 #divbanner4{
@@ -402,22 +401,19 @@ img {
   height: 400px;
   background-size: cover;
   width: 100%;
-  background-attachment: fixed;
 }
 
 #divbanner5{
   background: url(../img/bgenergiapage.jpg);
   height: 400px;
   background-size: cover;
-  width: 100%;
-  background-attachment: fixed;
+  width: 100%; 
 }
 
 #divbanner6{
   background: url(../img/bgnoticiaspage.png);
   height: 400px;
   width: 100%;
-  background-attachment: fixed;
   background-size: cover;
 }
 
@@ -812,4 +808,9 @@ ul{
     width: 80%;
   }
 }
+
+/*Cards de Projetos*/
+
+
+
 
