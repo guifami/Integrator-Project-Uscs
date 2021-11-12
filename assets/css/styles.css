@@ -375,8 +375,98 @@ img {
   font-size: 17px;
 }
 
+#divmain a{
+  font-size: 20px;
+  color: #0c0c0c;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 10px;
+}
+
+#divmain a:hover{
+  text-decoration: underline;
+  color: blue;
+  transition: 1s;
+  opacity: 80%;
+   
+}
+
+.divmain2{
+  background-color: #f9f9f9;
+  background-size: cover;
+  width: 100%;
+  justify-content: center;
+  text-align: justify;
+  padding: 20px;
+  padding-top: 50px;
+  height: 100%;
+}
+
+.divmain2 h3{
+  color: #1f1f1f;
+  font-size: 25px;
+  text-align: left;
+  padding-top: 15px;
+}
+
+.divmain2 p{
+  color: #202020;
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+.divmain3{
+  background-image: linear-gradient(to bottom, #f9f9f9, white);
+  background-size: cover;
+  width: 100%;
+  justify-content: center;
+  text-align: justify;
+  padding: 20px;
+  padding-top: 50px;
+  height: 100%;
+}
+
+.divmain3 h3{
+  color: #1f1f1f;
+  font-size: 25px;
+  text-align: left;
+  padding-top: 15px;
+}
+
+.divmain3 p{
+  color: #202020;
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+.divmainpesq2{
+  background-color: #f7f7f7;
+  background-size: cover;
+  width: 100%;
+  justify-content: center;
+  text-align: justify;
+  padding: 20px;
+  padding-top: 50px;
+  height: 100%;
+}
+
+.divmainpesq2 h2{
+  color: #0c0c0c;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.divmainpesq2 p{
+  color: #0c0c0c;
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
 #divbanner{
-  background: url(../img/bgconsumo.jpg);
+  background: url(../img/bgnoticias.jpg);
   height: 400px;
   background-size: cover;
 }
@@ -390,28 +480,35 @@ img {
 }
 
 #divbanner3{
-  background: url(../img/bgsustentabilidadepage.jpg);
+  background: url(../img/bggp2.jpg);
   height: 400px;
   background-size: cover;
   width: 100%;
 }
 
 #divbanner4{
-  background: url(../img/bgagronegociopage.jpg);
+  background: url(../img/bgsustentabilidadepage.jpg);
   height: 400px;
   background-size: cover;
   width: 100%;
 }
 
 #divbanner5{
-  background: url(../img/bgenergiapage.jpg);
+  background: url(../img/bguscsgp.jpg);
   height: 400px;
   background-size: cover;
-  width: 100%; 
+  width: 100%;
 }
 
 #divbanner6{
-  background: url(../img/bgnoticiaspage.png);
+  background: url(../img/bgconsumoclaro.jpg);
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+}
+
+#divbanner7{
+  background: url(../img/bgconsumo.jpg);
   height: 400px;
   width: 100%;
   background-size: cover;
@@ -429,12 +526,12 @@ img {
 }
 
 #divbanner2 h2{
-  font-size: max(30px, 2.5vw);
+  font-size: max(25px, 2.2vw);
   color: white;
   padding-top: 140px;
 }
 #divbanner2 h4{
-  font-size: max(15px, 1.0vw);
+  font-size: max(15px, 0.9vw);
   color: white;
   padding: 10px;
 }
@@ -483,6 +580,17 @@ img {
   padding: 10px;
 }
 
+#divbanner7 h2{
+  font-size: max(30px, 2.5vw);
+  color: white;
+  padding-top: 140px;
+}
+#divbanner7 h4{
+  font-size: max(15px, 1.0vw);
+  color: white;
+  padding: 10px;
+}
+
 /*Cards Animados*/
 
 #divbrancasaiba{
@@ -503,6 +611,7 @@ img {
   margin: 15px;
   overflow: hidden;
   min-width: 330px;
+  border: none;
 }
 
 #divbrancasaiba .card .imgBx,
@@ -528,7 +637,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(45deg, black, transparent);
+  background: linear-gradient(45deg, black, #0c0c0c7e, #0c0c0c4d);
   transform: scaleX(0);
   transition: transform 0.5s ease-in-out;
   transform-origin: left;
@@ -555,7 +664,7 @@ img {
   transition-delay: 0s;
 }
 #divbrancasaiba .card:hover .contentBx .contet{
-  transform: translateX(0px);
+  transform: translateX(-25px);
   transition-delay: 0.5s;
 }
 #divbrancasaiba .card .contentBx .contet h3{
@@ -567,6 +676,7 @@ img {
   text-align: left;
 }
 #divbrancasaiba .card .contentBx .contet p{
+  padding: 1px;
   font-size: 1em;
   line-height: 1.4em;
   font-weight: 400;
@@ -811,6 +921,41 @@ ul{
 
 /*Cards de Projetos*/
 
+.card_wrapper_grupos {
+  margin: 0 auto;
+  max-width: 1140px;
+  display: grid;
+  padding: 30px 28px;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-gap: 30px;
+  align-items: stretch;
+}
 
+.cardgrupo {
+  display: block;
+  transition: transform 0.3s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.10);
+  width: 100%;
+  height: 240px;
+}
 
+#footercard{
+  height: 200px;
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  float: bottom;
+}
 
+#footercard p{
+  color: #0c0c0c;
+  padding-top: 8px;
+  text-align: center;
+}
+
+.cardgrupo:hover{
+  transform: scale(1.03);
+  cursor: pointer;
+}
