@@ -524,6 +524,15 @@ img {
   height: 400px;
   width: 100%;
   background-size: cover;
+  background-attachment: fixed;
+}
+
+#divbanner9{
+  background: url(../img/bgesporte.jpg);
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #divbanner h2{
@@ -609,6 +618,17 @@ img {
   padding-top: 140px;
 }
 #divbanner8 h4{
+  font-size: max(15px, 1.0vw);
+  color: white;
+  padding: 10px;
+}
+
+#divbanner9 h2{
+  font-size: max(30px, 2.5vw);
+  color: white;
+  padding-top: 140px;
+}
+#divbanner9 h4{
   font-size: max(15px, 1.0vw);
   color: white;
   padding: 10px;
@@ -981,4 +1001,37 @@ ul{
 .cardgrupo:hover{
   transform: scale(1.03);
   cursor: pointer;
+}
+
+/*Responsive Paste*/
+
+details p{
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+summary{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 20px;
+  color: #0c0c0c;
+}
+
+.collapse{
+  width: 100%;
+  padding: 20px;
+}
+
+.collapse .title{
+  width: 100%;
+  max-width: 500px;
+  background-color: #f5f5f5;
+  box-shadow: 1px 1px 3px 1.2px #ababab6e;;
+}
+
+#empresas{
+  background-image: linear-gradient(to bottom, #f5f5f5, #f6f6f6, #f7f7f7);
 }
