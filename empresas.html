@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="/>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="shortcut icon" href="assets/img/logo.png">
+
+        <title>Projeto Integrador | 3D</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="header">
+            <div class="header__container">
+                <img src="assets/img/logo.png" alt="" class="header__img">
+                <div id="titulo">
+                   <h2>Projeto Integrador</h2> 
+                </div>
+    
+                <div class="header__toggle">
+                    <i class='bx bx-menu' id="header-toggle"></i>
+                </div>
+            </div>
+        </header>
+
+        <!--========== NAV ==========-->
+        <div class="nav" id="navbar">
+            <nav class="nav__container">
+                <div>
+                    <a href="index.html" class="nav__link nav__logo">
+                        <img src="assets/img/logo.png" alt="logo" class="logoimg">
+                        <span class="nav__logo-name" style="padding-left: 13px;">3°D</span>
+                    </a>
+    
+                    <div class="nav__list">
+                        <div class="nav__items">
+                            <h3 class="nav__subtitle">Sobre</h3>
+    
+                            <a href="index.html" class="nav__link active">
+                                <i class='bx bx-home nav__icon' ></i>
+                                <span class="nav__name">Home</span>
+                            </a>
+                            
+                            <div class="nav__dropdown">
+                                <a href="#" class="nav__link">
+                                    <i class='bx bx-user nav__icon' ></i>
+                                    <span class="nav__name">Grupos</span>
+                                    <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                                </a>
+
+                                <div class="nav__dropdown-collapse">
+                                    <div class="nav__dropdown-content">
+                                      <a href="grupo1.html" class="nav__dropdown-item">Indivíduo ou Sistema</a>
+                                      <a href="grupo2.html" class="nav__dropdown-item">Capitalismo</a>
+                                      <a href="grupo3.html" class="nav__dropdown-item">Energia</a>
+                                      <a href="grupo4.html" class="nav__dropdown-item">Agronegócio</a>
+                                      <a href="grupo5.html" class="nav__dropdown-item">Aquecimento Global</a>
+                                      <a href="empresas.html" class="nav__dropdown-item">Empresas Sustentáveis</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="nav__items">
+                            <h3 class="nav__subtitle">REFERÊNCIAS</h3>
+
+                            <a href="noticias.html" class="nav__link">
+                                <img src="assets/img/grupologo.png" alt="grupologo" class="logoimg">
+                                <span class="nav__name" style="padding-left: 10px;">Notícias</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </nav>
+        </div>
+
+        <!--========== CONTENTS ==========-->
+
+        <center>
+            <div id="divbanner8">
+                <h2>Empresas Sustentáveis</h2>
+                <h4>Encontre reunidas aqui Projetos relacionadas ao tema abordado em todos os Grupos.</h4>
+            </div>
+        </center>
+
+        <!--Cartões Responsivos-->
+
+
+        <style>
+            .content-column{
+                display: flex;
+                flex-wrap: wrap;
+                background-color: #fdfdfd;
+                width: 100%;
+                height: 100%;
+                text-align: left;
+            }
+
+            .content-column > *:nth-child(1){
+                flex: 1 1 30%;
+                min-width: 35ch;
+            }
+            
+
+            .content-column > *:nth-child(2){
+                flex: 1 1 40%;
+                min-width: 35ch;
+            }
+
+            .content-column img{
+                width: 400px;
+                height: 320px;
+                padding: 25px;
+                max-width: 400px;
+                min-width: 400px;
+            }
+            .content-column p{
+                padding-top: 50px;
+                padding: 30px;
+                color: #000;
+                font-size: 17px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            .content-column p a{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: #0c0c0c;
+            }
+
+            .content-column p a:hover{
+                text-decoration: underline;
+                opacity: 85%;
+                transition: .4s;
+            }
+        </style>
+
+            <center>
+                <div>
+                    <h3 style="color: #d98c00; font-size: 30px; padding: 20px;">EMPRESAS SUSTENTÁVEIS</h3>
+                    <center><img src="assets/img/CEMEX Y SOSTENIBILIDAD.jpg" alt=""></center>
+                    <br>
+                    <br>
+                    <div class="divmainpesq2">
+                        <h2>SOSTENIBILIDAD EN AMÉRICA LATINA</h2>
+                        <br>
+                        <p>Los países de Centro y Sudamérica, más específicamente los hispanohablantes, están incorporando cada vez más la creación de proyectos a favor de la sustentabilidad para minimizar el daño causado a la naturaleza por las industrias. Además, la competencia entre empresas por quién realiza las mejores acciones es aún mayor, beneficiando al medio ambiente y sensibilizando a la sociedad.</p>
+                        <p>Entre algunos, cabe destacar Bavaria, empresa ubicada en Colombia. Se originó en 1889 y es la cervecería más grande del país, una de las más grandes de América y la décima del mundo. La compañía se preocupa por mantener un balance entre las operaciones y el medio ambiente y por ratificar su compromiso con los retos sociales y ambientales del país. El Premio Nacional a la Responsabilidad Ambiental en la categoría de Producción Más Limpia refleja los valores que la empresa carrega en sus proyectos principales.</p>
+                        <p>En Gestión Medioambiental, el foco es evitar desperdiciar la producción de más cerveza con menos agua, reduciendo el consumo energético y las emisiones de carbono y fomentando la reutilización y reciclaje de los materiales utilizados. En los próximos años, la cervecería busca aún más avances y posibles soluciones para alcanzar sus objetivos sostenibles, mejorando el acceso y la calidad del agua para miles de personas a través de tecnologías y habilidades agrícolas.</p>
+                    </div>
+                </div>
+                    <div id="divmain">
+                        <h3 style="color: #d98c00;">EMPREENDEDORISMO VERDE</h3>
+                <p>Criado em 2008 pelo Programa das Nações Unidas para o Meio Ambiente (PNUMA), o empreendedorismo verde nada mais é do que uma ação para feita por uma empresa para preservar o meio ambiente, entre elas, que reduzam a emissão de gases estufas, uso de recursos sustentáveis e naturais, e uso de energia limpas e renováveis. Assim as empresas conseguem oferecer aos clientes produtos e serviços mais sustentáveis, já que os clientes hoje em dia estão mais preocupados mais com o meio ambiente, normalmente esses clientes sempre compram dessa mesma marca, por causa da familiaridade, mesmo que gastem mais com isso.</p>
+                <p>Empresas que adotam essas práticas normalmente tem uma boa imagem frente ao público, além de uma ótima estratégia de mercado. Uma pesquisa feita em 2019 pelo Centro Sebrae de Desenvolvimento Sustentável concluiu que pequenos empreendedores acreditam que o desenvolvimento sustentável cria mais oportunidades para novos modelos de negócios. De acordo com eles existem quatro modelos principais para escolherem ser verde:</p>
+                <p>Preocupação ambiental</p>
+                <p>Redução de custos</p>
+                <p>Geração de marketing e propaganda</p>
+                <p>Cumprimento da legislação</p>
+                <p>Algumas das principais importâncias do empreendedorismo verde são: uso dos recursos naturais de maneira eficiente; comprometimento sério com a responsabilidade ambiental e social; diminuição dos danos ao ecossistema; compromisso com a inclusão social; diminuição da emissão de carbono, reduzindo também o efeito estufa e o aquecimento global; redução do consumo de água; separação do lixo com consciência; e construção de uma boa relação com as comunidades em que a empresa está inserida. Portanto, as ações do empreendedorismo verde vão muito além do que apenas práticas voltadas para o meio ambiente.</p>
+                <br>
+                <h3>Sustentabilidade na América Latina</h3>
+                <h4>Grupo Argos</h4>
+                <p>Ao longo de sua história, a Argos conquistou significativa liderança na indústria de cimento e concreto, alcançando a quinta posição na produção de cimento na América Latina. Foi fundado em outubro de 1936 e é um dos maiores grupos empresariais da colômbia. Atua nas áreas de cimentos, concreto, produção e distribuição de energia elétrica através de sua empresa, imobiliário e infraestrutura.</p>
+                <p>Durante o ano de 2020, foi executado o plano de manutenção dos sistemas de controle dos dois fornos da planta de Rio Claro, na Colômbia. Com um investimento de US $ 356.413, foi obtida uma redução de 68% nas emissões específicas de material particulado. No mesmo ano tiveram uma redução total de 40% nas emissões de particulados.</p>
+                <p>Nas fábricas de Newberry e Atlanta nos Estados Unidos, realizaram um projeto de conservação que inclui um ninho de morcegos e um jardim polinizador. Ambas as iniciativas foram tidas em conta para as 2 certificações obtidas pelo Wild Life Habitat Council. O projeto Rio Saldaña obteve no ano passado resultados importantes como a preservação de 339 hectares de floresta protegida, 16 fazendas com 85 hectares em restauração passiva e ativa, 2 viveiros comunitários com 250 mudas propagadas.</p>
+                <p>Em linha com a Estratégia Ambiental e Gestão da Água e Biodiversidade, realizaram ações que visam garantir o abastecimento, uso eficiente e economia de água potável na fábrica de CINA (Haiti) através da concepção e construção de sistemas fiáveis de tratamento e abastecimento.</p>
+                <p>As emissões específicas líquidas de CO2 por tonelada de material cimentício aumentaram 0,9% face a 2019. Isso deve-se principalmente a um ligeiro aumento do fator de clínquer do cimento e à diminuição da utilização de gás natural consumido nos fornos de clínquer de mistura de combustível. Neste ano, alcançaram uma substituição de 6,3% do consumo calórico de combustíveis fósseis por combustíveis alternativos, o que se traduz em um aumento de 0,7% em relação a 2019.</p>
+                <p>Lançaram a Estratégia de Mudança Climática consolidada do Grupo Empresarial e suas subsidiárias. Com meta de redução de 37% do CO2 em termos absolutos, em relação à linha de base 2015. Em 2020 assumiram o compromisso com o Plano de Ambição Climática promovido e lançado pela Global Cement and Concrete Association (GCCA), que significava pertencer ao conjunto das 40 empresas que subscreveram o compromisso de produzir betão neutro em carbono até 2050.</p>
+                    </div>
+            </center>
+        <!--Rodapé-->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Quem Somos ?</h4>
+            <ul>
+              <li>Somos alunos do Colégio Universitário USCS e buscamos aprender, construir e melhorar a forma de aprendizagem.</li>
+              <li>Apresentamos nosso Projeto Integrador para espalhar esses conhecimentos.</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Orientadores</h4>
+            <ul>
+              <li>Diretoria</li>
+              <li>Secretaria</li>
+              <li>Coordenadores</li>
+              <li>Professores</li>
+              <li>Equipe técnica</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Referências</h4>
+            <ul>
+              <li>Aulas Gravadas</li>
+              <li>Fontes Externas</li>
+              <li>Livro Digital</li>
+              <li>Preparatórios</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Siga-nos</h4>
+            <div class="social-links">
+              <a href="https://pt-br.facebook.com/USCSOnline/"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com/uscs_online"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/uscsoficial/"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+   </footer>
+    <!--========== MAIN JS ==========-->
+    
+    <script src="assets/js/main.js"></script>
+    </body>
+</html>

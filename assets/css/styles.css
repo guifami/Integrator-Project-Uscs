@@ -441,7 +441,7 @@ img {
 }
 
 .divmainpesq2{
-  background-color: #f7f7f7;
+  background-color: #e9e9e9;
   background-size: cover;
   width: 100%;
   justify-content: center;
@@ -476,6 +476,7 @@ img {
   height: 400px;
   background-size: cover;
   width: 100%;
+  background-attachment: fixed;
 
 }
 
@@ -484,6 +485,7 @@ img {
   height: 400px;
   background-size: cover;
   width: 100%;
+  background-attachment: fixed;
 }
 
 #divbanner4{
@@ -491,6 +493,7 @@ img {
   height: 400px;
   background-size: cover;
   width: 100%;
+  background-attachment: fixed;
 }
 
 #divbanner5{
@@ -505,10 +508,19 @@ img {
   height: 400px;
   width: 100%;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 #divbanner7{
   background: url(../img/bgconsumo.jpg);
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#divbanner8{
+  background: url(../img/wp3720104.png);
   height: 400px;
   width: 100%;
   background-size: cover;
@@ -591,6 +603,17 @@ img {
   padding: 10px;
 }
 
+#divbanner8 h2{
+  font-size: max(30px, 2.5vw);
+  color: white;
+  padding-top: 140px;
+}
+#divbanner8 h4{
+  font-size: max(15px, 1.0vw);
+  color: white;
+  padding: 10px;
+}
+
 /*Cards Animados*/
 
 #divbrancasaiba{
@@ -664,11 +687,11 @@ img {
   transition-delay: 0s;
 }
 #divbrancasaiba .card:hover .contentBx .contet{
-  transform: translateX(-25px);
+  transform: translateX(-15px);
   transition-delay: 0.5s;
 }
 #divbrancasaiba .card .contentBx .contet h3{
-  font-size: 1.3em;
+  font-size: 1.1em;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: white;
